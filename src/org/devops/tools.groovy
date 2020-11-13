@@ -1,6 +1,13 @@
 package org.devops
 
 class tools implements Serializable {
+    
+    private final def script
+        
+    tools(def script) {
+        this.script = script
+    }
+    
     //格式化输出
     def PrintMes(value,color){
         colors = ['red'   : "\033[40;31m >>>>>>>>>>>${value}<<<<<<<<<<< \033[0m",
