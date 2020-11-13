@@ -4,7 +4,7 @@ class tools implements Serializable {
     
     private final def script
         
-    tools(def script) {
+    Build(def script) {
         this.script = script
     }
     
